@@ -1,0 +1,6 @@
+var __APP__={publicPath:""};
+__d((function(g,r,i,a,m,e,d){r(d[0]).AppRegistry.registerComponent('Module2',(function(){return r(d[1]).Module2}))}),"index2.js",["node_modules/react-native/index.js","src/Module2.tsx"]);
+__d((function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Module2=function(){var t=r(d[1]);return(0,r(d[2]).jsx)(n.View,{children:(0,r(d[2]).jsx)(n.ImageBackground,{style:{width:'100%',height:'100%'},source:t,children:(0,r(d[2]).jsx)(n.Text,{children:"\u8fd9\u662f\u6a21\u57572"})})})};var n=r(d[0])}),"src/Module2.tsx",["node_modules/react-native/index.js","src/resource/membership_header.png","node_modules/react/jsx-runtime.js"]);
+__d((function(e,s,t,r,a,h,c){a.exports=s(c[0]).registerAsset({__packager_asset:!0,httpServerLocation:"/assets/src/resource",width:1125,height:510,scales:[1],hash:"2587fb66d2b205951b326fd1985e1765",name:"membership_header",type:"png"})}),"src/resource/membership_header.png",["node_modules/react-native/Libraries/Image/AssetRegistry.js"]);
+__d((function(g,r,i,a,m,e,d){'use strict';m.exports=r(d[0])}),"node_modules/react-native/Libraries/Image/AssetRegistry.js",["node_modules/@react-native/assets-registry/registry.js"]);
+__r("index2.js");

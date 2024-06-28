@@ -8,14 +8,15 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  ImageBackground,
   SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
   Text,
   useColorScheme,
-  View,
-} from 'react-native';
+  View
+} from "react-native";
 
 import {
   Colors,
@@ -58,6 +59,7 @@ function Section({children, title}: SectionProps): JSX.Element {
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
+  const bgImageSource = require('./resource/membership_bg.png');
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
@@ -91,6 +93,11 @@ function App(): JSX.Element {
           </Section>
           <LearnMoreLinks />
         </View>
+        <ImageBackground
+          style={{width: '100%', height: 200}}
+          source={bgImageSource}>
+          <Text>这是模块1</Text>
+        </ImageBackground>
       </ScrollView>
     </SafeAreaView>
   );

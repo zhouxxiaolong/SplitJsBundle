@@ -13,5 +13,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.singleBundleBtn).setOnClickListener {
             startActivity(Intent(this, SingleBundleActivity::class.java))
         }
+        findViewById<Button>(R.id.multiBundleBtn).setOnClickListener {
+            startActivity(Intent(this, MultiBundleActivity::class.java))
+        }
     }
 }
